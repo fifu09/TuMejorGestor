@@ -1,6 +1,6 @@
 export const HomeFirstDescription = () => {
   return (
-    <div className="flex items-center justify-center w-full h-screen ">
+    <div className="flex items-center justify-center w-full h-screen">
       <div className="flex justify-between items-center w-full h-1/2 p-40 bg-Black65 gap-20">
         <section className="w-4/5 text-white">
           <strong className="text-6xl">
@@ -8,7 +8,7 @@ export const HomeFirstDescription = () => {
           </strong>
           <span className="text-4xl">
             Simplificamos la administración de tus archivos financieros, desde
-            impuestos hasta contabilidad. Accede fácilmente, ahorra tiempo y
+            impuestos hasta contabilidad. Accede <strong className="text-customBrown">fácilmente</strong>, ahorra tiempo y
             concéntrate en hacer crecer tu negocio. ¡Únete ahora!
           </span>
         </section>
